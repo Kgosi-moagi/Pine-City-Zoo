@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    background-color: #000000;
+}
+
+.container{
+    padding: 1rem;
+}
+
+.masonry-hero{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #e9e9e9;
+    position: relative;
+    overflow: hidden;
+}
+
+.masonry-hero::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6); /* Adjust opacity as needed */
+    z-index: 1;
+}
+
+.masonry-hero > * {
+    position: relative;
+    z-index: 2;
+}
+
+.masonry-subtitle{
+    font-size: 1.5rem;
+    font-family: "Smooch Sans", sans-serif;
+    color: #e9e9e9;
+    font-weight: bold;
+    text-align: center;
+}
+.masonry-hero{
+    background-image: url('../images/landscape-croc-eye.jpg');
+    
+}
+
+.masonry-hero-title{
+    width:100%;
+    font-weight: bold;
+    text-align: center;
+}
+.masonry-hero-title h2{
+    font-size: 11rem;
+    font-family: "Dosis", sans-serif;
+}
+
+.masonry-item{
+    width: 100%;
+    display: grid;
+}
+
+.masonry-item img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.masonry-grid{
+    columns: 500px;
+    gap: 5px;
+}
+.last-part{
+    padding: 30px;
+}
+
+@media (max-width: 430px) {
+
+    .masonry-hero-title h2 {
+        font-size: 5.5rem;
+    }
+    .masonry-hero-title p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 330px) {
+
+    .masonry-hero-title h2 {
+        font-size: 4.8rem;
+    }
+    .masonry-hero-title p {
+        font-size: 0.7rem;
+    }
+}

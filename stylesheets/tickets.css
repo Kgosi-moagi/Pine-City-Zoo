@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: "Dosis", sans-serif;
+    background-image: url('../images/max-van-den-oetelaar-2pSK9oOgCmQ-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.zoo-admin-1{
+    margin-top: 20px;
+    padding:0 50px;
+
+}
+.zoo-admin-2{
+    padding:10px 50px;
+
+}
+
+.guide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top:20px;
+    color:#d7d7d7;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.guide h5{
+    background-color: #0000004a;
+
+}
+
+.ticket-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: #d7d7d7 1px solid;
+    background-color: #e6e4e2;
+    border-radius: 10px;
+    border: #a1813f 2px solid;
+
+}
+.open-close-time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: #d7d7d7 1px solid;
+    background-color: #e6e4e2;
+    border-radius: 10px;
+    border: #a1813f 2px solid;
+
+}
+.open-close-time h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    text-decoration: underline #a1813f;
+}
+
+.ticket-info h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    text-decoration: underline #a1813f;
+
+}

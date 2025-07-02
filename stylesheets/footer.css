@@ -1,0 +1,122 @@
+.footer-text{
+    text-align: center;
+    padding:10px;
+    color:black;
+    font-weight: 500;
+    background-color: #d9d6d6;
+}
+.footer-title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #000000;
+    font-family:"Dosis", sans-serif;
+    border-bottom: #f8f9fa 1px solid;
+    color: #fff2cd;
+}
+.footer-container{
+    background-color: #a1813f;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.footer-description{
+    margin-right:70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 200px;
+}
+.footer-description p{
+    color: #000000;
+    background: none;
+    font-family:"Smooch Sans", sans-serif ;
+    font-weight: 700;
+    text-align: left;
+    padding:0px;
+}
+.footer-description h3{
+    font-size:2rem;
+}
+.footer-logo-image{
+    width: 150px;
+    object-fit: cover; 
+}
+.footer-button{
+    background-color: #45360e;
+    color:#f8f9fa;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin-right:80px;
+    margin-bottom:30px;
+    border-bottom: #d9d6d6 2px solid;
+}
+.footer-button:hover{
+    background-color: #654e15;
+    cursor: pointer;
+    color: #fff2cd;
+
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.footer-links  a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Smooch Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+.footer-links a:hover{
+    color: #654e15;
+    border-bottom: #f8f9fa 1px solid;
+}
+.footer-contact a i{
+    color: #000000;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.footer-contact a i{
+    margin-top: 20px;
+}
+.footer-contact a i:hover{
+    color: #654e15;
+}
+.footer-copywrite{
+    color: #000000;
+    font-family: "Smooch Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 430;
+    background-color: #654e15;
+    text-align: center;
+}
+footer{
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-description {
+        margin-right: 0;
+        text-align: center;
+    }
+    .footer-button {
+        margin-right: 0;
+    }
+    .footer-links {
+        align-items: center;
+    }
+    .footer-links{
+    gap: 5px;
+    }
+}
